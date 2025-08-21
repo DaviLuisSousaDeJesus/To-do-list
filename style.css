@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1A1A1A;
+}
+
+body{
+    background-color: #1A1A1A;
+    text-align: center;
+    color: white;
+  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.adicionarTarefas{
+        display: flex;
+        gap: 10px; 
+}
+
+.addtarefa{
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+    background-color: #ffffff;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    padding: 0.2rem;
+
+}
+.enviar{
+font-size: 1.2rem;
+color: white;
+background-color: rgb(3, 180, 3);
+padding: 0.5rem;
+height: 2rem;
+margin-top: 1rem;
+border-radius: 10px;
+border: none;
+transition: 0.8s;
+}
+
+.enviar:hover{
+    background-color: darkgreen;
+}
+
+
+.localdasTarefas{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem; 
+    padding: 0.3rem;   
+  flex-direction: column;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+   
+
+.localdasTarefas div{
+background-color: purple;
+ display: flex;
+ flex-direction: row;
+font-size: 1.6rem;
+padding: 0.5rem;
+width: auto;
+border-radius: 1rem;
+ transition: 0.5s;
+ background-color: transparent;
+}
+
+
+
+.localdasTarefas button {
+width: 2rem;
+height: 2rem ;    
+margin-top: 0.3rem;
+border-color: #ffffff;
+border-radius: 50%;
+background-color:transparent;
+transition: 0.5s;
+}
+
+.localdasTarefas button:hover{
+    background-color: rgb(190, 7, 7);
+}
+
+.selecionada button{
+    transition: 0.8s;
+    background-color: #610606;
+    border:#610606 ;
+}
+
+.botaoexcluir button{
+margin-top: 1rem;
+padding: 1rem;
+background-color: red;
+border-radius: 10px;
+color: white;
+border: none;
+transition: 0.5s;
+}
+
+.botaoexcluir button:hover{
+    
+    background-color: #610606;
+}
+
+
